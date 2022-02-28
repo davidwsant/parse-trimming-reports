@@ -4,7 +4,10 @@ This program has been designed to parse the output reports from trim_galore! int
 At this point it only works with single-read trimmed data, but I plan to update the
 script once I have a minute to try it on paired-end data.
 
-Example usage: `./parse_trimming_reports.py -r *trimming_report.txt -o trim_galore_combined_report.csv`
+Example usage: 
+```
+./parse_trimming_reports.py -r *trimming_report.txt -o trim_galore_combined_report.csv
+```
 
 
 optional arguments:
