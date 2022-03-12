@@ -49,7 +49,7 @@ def error_message():
 
 if not report_files:
 	report_files = glob.glob("*trimming_report.txt")
-	if len(report_files > 0):
+	if len(report_files) > 0:
 		print()
 		print("\tYou have not specified any trimming_report files to parse.")
 		print()
